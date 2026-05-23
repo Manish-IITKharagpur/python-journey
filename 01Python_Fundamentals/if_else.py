@@ -1,12 +1,11 @@
 # Basic if-else statement
-SCORE = 50 
+SCORE = 50
 if SCORE >= 90:
-    print("Grade: A")   
+    print("Grade: A")
 else:
     print("Grade: Not A")
 
 # if-elif-else statement
-
 SCORE = 95
 if SCORE >= 90 :
     print('Grade: A')
@@ -30,7 +29,7 @@ if SCORE >= 95 :
         print('A')
 else:
     print('other grade')
-    
+
 
 # Evaluating two contitions using logical operators'
 SCORE = int(input('Enter Your Score: '))
@@ -62,16 +61,16 @@ if submitted_project.lower() == 'yes':
 else:
     print('Not Submitted')
 
-#Inline if statements
+# Inline if statements
 
 SCORE = 90
 GRADE = "A" if SCORE>=90 else "B" if SCORE>= 80 else "other grades"
 print(GRADE)
 
-# Case - Match
-# Convert the full country  name into 2 letter abbreviations
+Case - Match
+Convert the full country  name into 2 letter abbreviations
 
-country = input('Enter your country: ') 
+country = input('Enter your country: ')
 if country == "Unites States":
     print('US')
 elif country == "India":
@@ -79,15 +78,42 @@ elif country == "India":
 elif country == "Germany":
     print('DE')
 
-# else :
-#     print('unknown')
+else :
+    print('unknown')
 
 match country:
-    case "Unites States": 
+    case "Unites States":
         print('US')
-    case "India" : 
+    case "India" :
         print('IN')
     case "Germany":
         print('DE')
-    case _: 
+    case _:
         print('unbkwon Country')
+
+# 1_PYTHON CHALLENGE
+# Validate the quality and Correctness of Email Values
+# Must not be empty
+# Must Contain '.' and '@'
+# Must contain exactly one '@' symbol
+# Must end with '.com', '.org' , or '.net'
+# Must start and end with a letter or digit
+
+
+email = input("Enter the email: ")
+# clean the string with trailing and leading space
+email = email.strip()
+if email == "":
+    print("Email cannot be empty")
+elif not ('.' in email and '@' in email):
+    print("Email must contain . and @ ")
+elif email.count('@') != 1:
+    print("Email must contain exactly one @")
+elif not email.endswith(('.com', '.org', '.net')):
+    print("Email must end with .com, .org, .net")
+elif len(email) > 254:
+    print("Email must not be greater than 254")
+elif not( email[0].isalnum() and email[-1].isalnum()):
+    print('Email must start and end with a letter or digit')
+else :
+    print("Valid Email: ", email)
