@@ -67,8 +67,8 @@ SCORE = 90
 GRADE = "A" if SCORE>=90 else "B" if SCORE>= 80 else "other grades"
 print(GRADE)
 
-Case - Match
-Convert the full country  name into 2 letter abbreviations
+#Case - Match
+#Convert the full country  name into 2 letter abbreviations
 
 country = input('Enter your country: ')
 if country == "Unites States":
