@@ -8,6 +8,7 @@
 a = 10
 # String
 b = "Manish" 
+b = 'Manish'
 # Float
 c = 3.14
 # Boolean
@@ -24,13 +25,14 @@ i ="" # Empty String
 # Now updating it with different datatype value
 a = "Manish"
 
+a = "Baraa"
 # Python will automatically detect and change the datatype (DYNAMIC)
 
 # So python stores variables in different size and different types
 
 # Using built-in function upper() to explain why datatypes are important
 
-# print("manish".upper())
+print("manish".upper())
 
 # If we try to use upper() function on integer variable, it will give us an error because upper() function is only for string datatype
 number = 10
@@ -41,7 +43,7 @@ number = 10
 # Does upper() belong to integer variable? No
 
 # Empty data is also a datatype in python, it is called NoneType 
-empty_data = None
+# empty_data = None
 
 # Primitive DataTypes / Single Value  DataTypes: Integer, String, Float, Boolean, NoneType
 
@@ -59,25 +61,26 @@ empty_data = None
 # So FUNCTIONS AND METHODS ARE SAME?
 
 # Syntax of function: function_name(parameters)
-# print("Hello World") 
+print("Hello World") 
 
 # Syntax Method: object_name.method_name(parameters)
-# print("Hello World".upper())
+print("Hello World".upper())
+print("Hello World".lower())
 
 a = "Manish"
 b =  90
 
 # Standalone Functions
-# print(a)
-# print(b)
+print(a)
+print(b)
 
-# print(type(a))
-# print(type(b))  
+print(type(a))
+print(type(b))  
 
-print(len(b))
+print(len(a))
 # TypeError: object of type 'int' has no len()
 
-print(b.upper())
+# print(b.upper())
 
 # AttributeError: 'int' object has no attribute 'upper'
 

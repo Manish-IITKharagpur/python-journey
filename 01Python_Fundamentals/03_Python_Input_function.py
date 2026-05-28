@@ -16,12 +16,12 @@ input("Enter your name: ")
 name = input("Enter your name: ")
 # Static part
 # ' , ' for adding space in between
-print("Hello, ",name)
+print("Hello,",name)
 
 # Why we need input function?
 
 # Problem Harcoded inside code  
-country = "India" 
+country = "India"
 print("I am from", country)
 
 # Now if I want to change the country, I have to change the code and update the value of country variable, which is not a good practice
@@ -34,7 +34,7 @@ print("I am from", country)
 # Execution behind the scene of print and input function
  
 name = "Manish"
-print("Hello, ", name)
+print("Hello,",name)
 
 name = input("Enter your name: ")
 print("Hello, ", name)
