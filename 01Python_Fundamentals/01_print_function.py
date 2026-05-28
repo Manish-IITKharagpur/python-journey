@@ -3,37 +3,37 @@
 # Third party libraries or External Functions: Pandas, Numpy, Pyspark
 # User defined Functions created by users
 
-# print("Manish loves coffee")
+print("Manish loves coffee")
 
 # special characters like  \", \' , \\ \n, \t
 # escape sequence - using backslash to escape
 
 # consider " " part of string
 
-# print("Hi \"Python\" ") 
+print("Hi \"Python\" ") 
 
 
 # another way around
 
-# print('Hi "Python"')
+print('Hi "Python"')
 
 # Using Backslash in order to skip a character
 
 # USE CASE - use of special characters
 # print path so here \ will
 
-# print("Path: C:\\Users\\Baraa")
+print("Path: C:\\Users\\Baraa")
 
 
 
 # \U as a unicode escape
-# print("\U0001F600")
+print("\U0001F600")
 
 
 # \n:Escape New Line At the end of my message go and create one extra new line
-# print("Message1\n\n")
-# print("\tMessage2")
-# print("Hi\tEveryone")
+print("Message1\n\n")
+print("\tMessage2")
+print("Hi\tEveryone")
 
 # \t Escape Tab : Add a Tab space in between
 
@@ -45,13 +45,13 @@
 
 #             -AI Engineering
 # Python Challenge
-# print("Your Learning path:\n\t-Python Basics\n\t-Data Engineering\n\t-AI Engineering\n\t-Anything")
+print("Your Learning path:\n\t-Python Basics\n\t-Data Engineering\n\t-AI Engineering\n\t-Anything")
 
 # Use of triple quotes when multi line text
-# print("""Your Learning path:
-# \t-Python Basics
-# \t-Data Engineering
-# \t-AI Engineering""")
+print("""Your Learning path:
+\t-Python Basics
+\t-Data Engineering
+\t-AI Engineering""")
 
 # Use Cases for print function
 total_quantity= 35
