@@ -29,4 +29,6 @@ Codewars public API (no auth): `https://www.codewars.com/api/v1/code-challenges/
 
 ## Git
 
-Commit after each solved kata: `Solve <Kata Name> (<rank> kyu)`. Push to `origin main`.
+This folder is `Codewars/` inside the `python-journey` repo (https://github.com/Manish-IITKharagpur/python-journey). Only stage files in this folder; the rest of the repo holds other Python learning material.
+
+Commit after each solved kata: `Codewars: solve <Kata Name> (<rank> kyu)`. Push to `origin main`.

@@ -1,8 +1,8 @@
-# Codewars Python
+# Codewars
 
 Daily Python practice with [Codewars](https://www.codewars.com) katas.
 
-Each kata lives in `<rank>kyu/<name>.py` with its description and test cases. Run one with:
+Each kata lives in `<rank>kyu/<name>.py` with its description and test cases. From this folder, run one with:
 
 ```bash
 python 6kyu/valid_braces.py

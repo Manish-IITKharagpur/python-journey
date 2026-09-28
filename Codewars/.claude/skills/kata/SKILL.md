@@ -33,8 +33,8 @@ Follow CLAUDE.md's tutoring rules throughout: hints before answers, code only wh
 1. Run the file and confirm every test PASSes.
 2. Review: correctness, edge cases, readability, and a more Pythonic alternative if one exists (show it, don't replace their code unless asked).
 3. Add a row to the README progress table: date (YYYY-MM-DD), kata name linked to its URL, rank, file link, one-line "key idea" (e.g. "stack: last opened, first closed").
-4. Commit and push:
+4. Commit and push, staging only this `Codewars/` folder (run from inside it):
    ```bash
-   git add -A && git commit -m "Solve <Kata Name> (<rank> kyu)" && git push
+   git pull --rebase && git add -A . && git commit -m "Codewars: solve <Kata Name> (<rank> kyu)" && git push
    ```
 5. Suggest a next kata that builds on the same idea.
