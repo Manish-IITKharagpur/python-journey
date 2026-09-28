@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "pipeworx-codewars": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://gateway.pipeworx.io/codewars/mcp"
+      ]
+    }
+  }
+}
