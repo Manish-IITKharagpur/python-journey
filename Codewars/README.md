@@ -17,3 +17,4 @@ python 6kyu/valid_braces.py
 | 2026-09-28 | [Valid Braces](https://www.codewars.com/kata/5277c8a221e209d3f6000b56) | 6 kyu | [valid_braces.py](6kyu/valid_braces.py) | Stack: last opened must be first closed; empty stack at the end = valid |
 | 2026-09-28 | [Sum of positive](https://www.codewars.com/kata/5715eaedb436cf5606000381) | 8 kyu | [sum_of_positive.py](8kyu/sum_of_positive.py) | Loop with a running total; never name a variable `sum` (it hides the built-in) |
 | 2026-10-02 | [Counting sheep...](https://www.codewars.com/kata/54edbc7200b811e956000556) | 8 kyu | [counting_sheep.py](8kyu/counting_sheep.py) | `list.count(True)` counts matches; `is True` vs `== True` (1 == True); `sum()` crashes on None |
+| 2026-10-02 | [Vowel Count](https://www.codewars.com/kata/54ff3102c1bad923760001f3) | 7 kyu | [vowel_count.py](7kyu/vowel_count.py) | Loop over a string char by char; `ch in "aeiou"` replaces a chain of `or` checks |
